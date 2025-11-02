@@ -400,10 +400,10 @@ Comprehensive benchmarks were executed on 10 datasets (3 small, 3 medium, 3 larg
 - DAG paths should be fastest (simple relaxation)
 
 **Practice:**
-- ✅ **Linear Scaling Confirmed:** Times increase proportionally with graph size
-- ✅ **Complexity Order Verified:** SCC (0.037ms avg) > Topo (0.007ms avg) > DAG-SP (0.002ms) > DAG-LP (0.004ms)
-- ✅ **Condensation Effect:** Cyclic graphs collapse dramatically (e.g., 50 vertices → 1 vertex in large_dense_1)
-- ✅ **JVM Optimization:** Sub-millisecond performance demonstrates JIT compilation effectiveness
+-  **Linear Scaling Confirmed:** Times increase proportionally with graph size
+-  **Complexity Order Verified:** SCC (0.037ms avg) > Topo (0.007ms avg) > DAG-SP (0.002ms) > DAG-LP (0.004ms)
+-  **Condensation Effect:** Cyclic graphs collapse dramatically (e.g., 50 vertices → 1 vertex in large_dense_1)
+-  **JVM Optimization:** Sub-millisecond performance demonstrates JIT compilation effectiveness
 
 #### Key Insights
 
